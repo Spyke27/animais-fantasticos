@@ -17,6 +17,7 @@ tabMenu.forEach((itemMenu, index) => {
 }
 initTabNav();
 
+function initAccordion (){
 const accordionList = document.querySelectorAll('.js-accordion dt');
 const activeClass = 'ativo';
 
@@ -27,6 +28,8 @@ function activeAccordion(){
 
 accordionList.forEach((item) => {
     item.addEventListener('click', activeAccordion)
-})
+});
+}
+initAccordion();
 
 
