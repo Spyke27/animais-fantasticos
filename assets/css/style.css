@@ -181,7 +181,7 @@ letter-spacing: .1em;
     }
 }
 
-.js-tabcont section{
+.js .js-tabcont section{
     display: none;
 }
 .js-tabcont section.ativo{
