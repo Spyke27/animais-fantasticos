@@ -14,7 +14,8 @@
 - Site informativo sobre alguns animais que acho interessantes, feito para praticar conceitos de Javascript em eventos de clique e interação com o usuario, testando também eventos de scroll.
 
  ## Projeto rodando:
- 🔰 Link: 
+ 
+ 🔰 Link: https://fantasticanimal.netlify.app/
 
  ## Resultado 💻
  <hr>
