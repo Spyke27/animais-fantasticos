@@ -32,4 +32,24 @@ accordionList.forEach((item) => {
 }
 initAccordion();
 
+function initScroll (){
+
+    const sections = document.querySelectorAll('.js-scroll');
+    const metade = window.innerHeight * 0.6;
+
+    function scroll(){
+        sections.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top - metade;
+
+            if(sectionTop < 0){
+                section.classList.add('ativo');
+            }
+        })
+    }
+    scroll();
+    window.addEventListener('scroll', scroll);
+}
+
+initScroll();
+
 
